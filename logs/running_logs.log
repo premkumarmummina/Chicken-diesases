@@ -168,3 +168,149 @@ Source-Age: 0
 
 ]
 [2024-12-17 18:07:06,983: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<]
+[2024-12-17 19:14:51,278: INFO: font_manager: generated new fontManager]
+[2024-12-17 19:31:59,813: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 19:31:59,818: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 19:31:59,820: INFO: comman: created directory at: artifacts]
+[2024-12-17 19:31:59,822: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2024-12-17 19:34:07,451: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 19:34:07,455: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 19:34:07,458: INFO: comman: created directory at: artifacts]
+[2024-12-17 19:34:07,460: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2024-12-17 19:34:51,072: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 19:34:51,077: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 19:34:51,079: INFO: comman: created directory at: artifacts]
+[2024-12-17 19:34:51,081: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2024-12-17 19:35:01,017: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 19:35:01,201: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 19:57:01,407: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-12-17 19:57:03,411: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-17 19:57:03,413: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 19:57:03,414: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 19:57:03,415: INFO: comman: created directory at: artifacts]
+[2024-12-17 19:57:03,415: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\git_enivornment\Chicken-diesases\main.py", line 11, in <module>
+    obj.main()
+  File "C:\git_enivornment\Chicken-diesases\src\cnnClassifier\pipeline\stage01_datainjuction.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-12-17 19:57:03,416: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2024-12-17 19:57:03,417: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 19:57:03,418: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 19:57:03,419: INFO: comman: created directory at: artifacts]
+[2024-12-17 19:57:03,419: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2024-12-17 19:57:03,939: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 19:57:04,113: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 19:57:04,216: INFO: main: >>>>>> stage Prepare Base Model completed <<<<<<]
+[2024-12-17 20:00:37,257: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-12-17 20:00:38,753: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-17 20:00:38,755: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 20:00:38,756: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 20:00:38,757: INFO: comman: created directory at: artifacts]
+[2024-12-17 20:00:38,757: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\git_enivornment\Chicken-diesases\main.py", line 11, in <module>
+    obj.main()
+  File "C:\git_enivornment\Chicken-diesases\src\cnnClassifier\pipeline\stage01_datainjuction.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-12-17 20:00:38,758: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2024-12-17 20:00:38,761: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 20:00:38,762: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 20:00:38,763: INFO: comman: created directory at: artifacts]
+[2024-12-17 20:00:38,763: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2024-12-17 20:00:39,176: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 20:00:39,387: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 20:00:39,508: INFO: main: >>>>>> stage Prepare Base Model completed <<<<<<]
+[2024-12-17 20:01:45,230: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-12-17 20:01:46,675: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-17 20:01:46,676: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 20:01:46,678: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 20:01:46,678: INFO: comman: created directory at: artifacts]
+[2024-12-17 20:01:46,678: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\git_enivornment\Chicken-diesases\main.py", line 11, in <module>
+    obj.main()
+  File "C:\git_enivornment\Chicken-diesases\src\cnnClassifier\pipeline\stage01_datainjuction.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-12-17 20:05:13,115: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-12-17 20:05:14,448: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-17 20:05:14,450: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 20:05:14,451: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 20:05:14,451: INFO: comman: created directory at: artifacts]
+[2024-12-17 20:05:14,452: INFO: comman: created directory at: artifacts/data_ingestion]
+[2024-12-17 20:05:22,421: INFO: data_injuctions: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 50F4:2793BC:180B0:1B282:676160CA
+Accept-Ranges: bytes
+Date: Tue, 17 Dec 2024 14:35:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1734446121.399776,VS0,VE295
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 80863c1dd83306cd52685cc45ea1299669289868
+Expires: Tue, 17 Dec 2024 14:40:21 GMT
+Source-Age: 0
+
+]
+[2024-12-17 20:05:22,954: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<]
+[2024-12-17 20:06:00,438: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-12-17 20:06:01,832: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-17 20:06:01,834: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 20:06:01,835: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 20:06:01,835: INFO: comman: created directory at: artifacts]
+[2024-12-17 20:06:01,836: INFO: comman: created directory at: artifacts/data_ingestion]
+[2024-12-17 20:06:02,729: INFO: data_injuctions: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 50F4:2793BC:180B0:1B282:676160CA
+Accept-Ranges: bytes
+Date: Tue, 17 Dec 2024 14:36:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10226-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1734446162.382177,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 799106ca74cc0f73ba7e33eaa9d3b0e8b9b7435f
+Expires: Tue, 17 Dec 2024 14:41:02 GMT
+Source-Age: 41
+
+]
+[2024-12-17 20:06:03,150: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<]
+[2024-12-17 20:06:03,150: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2024-12-17 20:06:03,152: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2024-12-17 20:06:03,154: INFO: comman: yaml file: params.yaml loaded successfully]
+[2024-12-17 20:06:03,155: INFO: comman: created directory at: artifacts]
+[2024-12-17 20:06:03,155: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2024-12-17 20:06:03,586: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 20:06:03,743: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-12-17 20:06:03,848: INFO: main: >>>>>> stage Prepare Base Model completed <<<<<<]
